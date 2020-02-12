@@ -12,5 +12,5 @@ def square_array(array)
 
 
 end
-puts square_array(array)
+return square_array(array)
 
