@@ -8,7 +8,7 @@ def square_array(array)
    array_square = array*array 
     new_array.push(array_square)
  end
- puts new_array
+ return new_array
 
 
 end
