@@ -6,7 +6,7 @@ def square_array(array)
  array.each do |array| 
     new_array = array*array 
  
- puts new_array
+ return new_array
 end
 
 end
