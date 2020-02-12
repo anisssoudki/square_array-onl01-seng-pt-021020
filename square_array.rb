@@ -14,3 +14,4 @@ def square_array(array)
 end
 return square_array(array)
 
+# if i ever come back to this note research the .collect and .inject 
