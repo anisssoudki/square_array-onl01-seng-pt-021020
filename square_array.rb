@@ -3,11 +3,14 @@ array = [1,2,3]
 def square_array(array)
   # your code here
   new_array = []
+  array_square = []
  array.each do |array| 
-    new_array = array*array 
- 
- 
-end
+   array_square = array*array 
+    new_array.push(array_square)
+ end
+ puts new_array
+
 
 end
 puts square_array(array)
+
